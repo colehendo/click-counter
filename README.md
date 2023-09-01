@@ -1,3 +1,7 @@
+## Summary
+
+This code simply counts the number of clicks to a specific set of links in a given year. It is an example of good object oriented organization, testing, and well documented and readable code.
+
 ## Dependencies
 
 - All project dependencies can be installed by running the following command from within the `src` directory
