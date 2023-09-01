@@ -1,6 +1,6 @@
 ## Summary
 
-This code simply counts the number of clicks to a specific set of links in a given year. It is an example of good object oriented organization, testing, and well documented and readable code.
+This code counts the number of clicks to a specific set of encoded short links in a given year, outputting a sorted list of unencoded urls and their associated click counts. It provides a good example of proper object oriented organization, testing, and well documented and readable code.
 
 ## Dependencies
 
@@ -37,9 +37,10 @@ This code simply counts the number of clicks to a specific set of links in a giv
 ## Future Additions
 
 - I did not want to over-architect the solution simply for the sake of doing so, but here are a list of additions which could be made:
-  - A parameter parser
+  - A more robust parameter parser
   - A selection of sorting, filtering, and paging options for the data
   - The ability to handle file types other than csv and json for the encodes and decodes files
+  - Non-local sources for the encodes and decodes files
   - The ability to ingest the click and link data from sources other than files
   - An API framework built around the functionality
   - A Dockerfile to build an image of the code
