@@ -23,10 +23,9 @@ class DataFiles:
     decodes_json_file_path = os.path.join(
         os.path.dirname(__file__), data_folder, decodes_json_file_name
     )
-    # encodes_csv_file_path = os.path.join(
-    #     os.path.dirname(__file__), data_folder, encodes_csv_file_name
-    # )
-    encodes_csv_file_path = "/Users/colehendo/Desktop/bitly-backend-eng-coding-challenge/src/data/encodes.csv"
+    encodes_csv_file_path = os.path.join(
+        os.path.dirname(__file__), data_folder, encodes_csv_file_name
+    )
 
 
 @dataclass

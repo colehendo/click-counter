@@ -67,7 +67,6 @@ class ClickCountValidator:
         except ValueError as e:
             if Globals.DEBUG:
                 print(e)
-
             return False
 
         if date_year != self.year:
