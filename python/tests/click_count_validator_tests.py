@@ -1,16 +1,16 @@
 import unittest
 
-from bitly_urls import BitlyURLs
+from urls import URLs
 from click_counter import ClickCountValidator
 from utils import TimeUtils
 
 
 class TestClickCountValidator(unittest.TestCase):
-    bitly_urls = BitlyURLs()
+    urls = URLs()
 
     year = 2021
 
-    valid_short_urls = bitly_urls.valid_short_urls
+    valid_short_urls = urls.valid_short_urls
     valid_url = list(valid_short_urls)[0]
     valid_date = "2021-01-01T00:00:00Z"
 

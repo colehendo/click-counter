@@ -6,7 +6,7 @@ from typing import Dict, List
 from utils import DataFiles, EncodeFields, Globals
 
 
-class BitlyURLs:
+class URLs:
     """
     Reads in the encodes.csv file and
     stores the data in an ingestable manner

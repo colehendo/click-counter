@@ -35,7 +35,7 @@ class ClickCounter:
         with open(DataFiles.decodes_json_file_path) as decodes_file:
             decodes_data = json_stream.load(decodes_file, persistent=False)
             for click in decodes_data:
-                url = click.get("bitlink")
+                url = click.get("link")
                 date = click.get("timestamp")
 
                 click_valid = self.validator.click_is_valid(url, date)

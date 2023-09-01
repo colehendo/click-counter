@@ -2,14 +2,14 @@ import unittest
 
 from collections import defaultdict
 
-from bitly_urls import BitlyURLs
+from urls import URLs
 from click_counter import ClickCounter, ClickCountValidator
 
 
 class TestClickCounter(unittest.TestCase):
-    bitly_urls = BitlyURLs()
+    urls = URLs()
 
-    valid_short_urls = bitly_urls.valid_short_urls
+    valid_short_urls = urls.valid_short_urls
     url = "foo"
     year = 2021
 
